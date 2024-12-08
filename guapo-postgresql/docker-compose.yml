@@ -7,7 +7,7 @@ services:
       APP_PORT: 5432
   
   web:
-    image: postgres/postgres@sha256:994cc3113ce004ae73df11f0dbc5088cbe6bb0da1691dd7e6f55474202a4f211
+    image: postgres/postgres:latest@sha256:994cc3113ce004ae73df11f0dbc5088cbe6bb0da1691dd7e6f55474202a4f211
     restart: on-failure
     stop_grace_period: 1m
     ports:
