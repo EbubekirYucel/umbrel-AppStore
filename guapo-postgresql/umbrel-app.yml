@@ -16,7 +16,7 @@ website: https://www.postgresql.org/
 dependencies:
 repo: https://github.com/postgres/postgres
 support: https://github.com/postgres/postgres/discussions
-port: 5542
+port: 5432
 gallery:
   - https://i.imgur.com/acfGuuf.png
   - https://i.imgur.com/acfGuuf.png
