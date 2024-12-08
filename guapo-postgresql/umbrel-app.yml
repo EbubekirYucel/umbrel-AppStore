@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: guapo-postgresql
-category: developer tools
+category: databases
 name: PostgresSQL
 version: "17.2.0"
 tagline: PostgreSQL is a powerful, open source object-relational database system.
