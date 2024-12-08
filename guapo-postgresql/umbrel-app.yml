@@ -4,7 +4,7 @@ category: databases
 name: PostgresSQL
 version: "17.2.0"
 tagline: PostgreSQL is a powerful, open source object-relational database system.
-icon: https://www.postgresql.org/media/img/about/press/elephant.png
+icon: https://www.postgresql.org/media/img/about/press/elephant64.png
 description: >-
   PostgreSQL is a powerful, open-source object-relational database system. 
   It offers high performance, extensibility, and data integrity. 
@@ -22,7 +22,7 @@ gallery:
   - https://i.imgur.com/acfGuuf.png
   - https://i.imgur.com/acfGuuf.png
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "umbrel"
+deterministicPassword: true
 submitter: Guapo
 submission: https://github.com/EbubekirYucel/umbrel-AppStore
