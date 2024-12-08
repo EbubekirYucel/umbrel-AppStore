@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: guapo-postgresql
+id: guapo-postgresqldb
 category: databases
 name: PostgresSQL
 version: "17.2.0"
