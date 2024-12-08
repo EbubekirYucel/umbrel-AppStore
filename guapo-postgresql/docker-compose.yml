@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: guapo-postgresql
+      APP_HOST: guapo_postgresql_1
       APP_PORT: 5532
   
   web:
@@ -11,12 +11,12 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - "5432:5532"
+      - "5432:5432"
     volumes:
-      - ${APP_DATA_DIR}/postgres-data:/var/lib/postgresql/data
+      - ${APP_DATA_DIR}/postgresql:/data/postgresql
     environment:
       # PostgreSQL kullanıcı bilgileri
       POSTGRES_USER: umbrel
-      POSTGRES_PASSWORD: $APP_PASSWORD
+      POSTGRES_PASSWORD: ${APP_PASSWORD}
       POSTGRES_DB: postgres
     
