@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: guapo_postgresql_1
+      APP_HOST: guapo-postgresql_1
       APP_PORT: 5432
   
   postgresql:
