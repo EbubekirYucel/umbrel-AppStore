@@ -6,7 +6,7 @@ services:
       APP_HOST: guapo_postgresql_1
       APP_PORT: 5432
   
-  postgresql:
+  postgresqldb:
     image: library/postgres:17.2@sha256:fe4efc6901dda0d952306fd962643d8022d7bb773ffe13fe8a21551b9276e50c
     restart: on-failure
     stop_grace_period: 1m
