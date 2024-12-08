@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: guapo-postgresql
+category: developer tools
+name: PostgresSQL
+version: "17.2.0"
+tagline: PostgreSQL is a powerful, open source object-relational database system.
+icon: https://www.postgresql.org/media/img/about/press/elephant.png
+description: >-
+  PostgreSQL is a powerful, open-source object-relational database system. 
+  It offers high performance, extensibility, and data integrity. 
+  It is SQL compliant and ideal for complex queries, data analysis, and large data management.
+releaseNotes: >-
+  Initial release
+developer: Postgres
+website: https://www.postgresql.org/
+dependencies:
+  - 
+repo: https://github.com/postgres/postgres
+support: https://github.com/postgres/postgres/discussions
+port: 5432
+gallery:
+  - https://i.imgur.com/acfGuuf.png
+  - https://i.imgur.com/acfGuuf.png
+  - https://i.imgur.com/acfGuuf.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Guapo
+submission: https://github.com/EbubekirYucel/umbrel-AppStore
