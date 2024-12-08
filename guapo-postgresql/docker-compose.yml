@@ -13,10 +13,10 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ${APP_DATA_DIR}/postgresql:/data/postgresql
+      - ${APP_DATA_DIR}/postgresql:/var/lib/postgresql/data
     environment:
       # PostgreSQL kullanıcı bilgileri
       POSTGRES_USER: umbrel
-      POSTGRES_PASSWORD: ${APP_PASSWORD}
+      POSTGRES_PASSWORD: "$APP_PASSWORD"
       POSTGRES_DB: postgres
     
