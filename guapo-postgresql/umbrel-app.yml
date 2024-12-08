@@ -14,7 +14,6 @@ releaseNotes: >-
 developer: Postgres
 website: https://www.postgresql.org/
 dependencies:
-  - 
 repo: https://github.com/postgres/postgres
 support: https://github.com/postgres/postgres/discussions
 port: 5432
