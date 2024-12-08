@@ -4,7 +4,7 @@ category: databases
 name: PostgresSQL
 version: "17.2.0"
 tagline: PostgreSQL is a powerful, open source object-relational database system.
-icon: https://www.postgresql.org/media/img/about/press/elephant64.png
+icon: https://i.imgur.com/aIrg7aQ.png
 description: >-
   PostgreSQL is a powerful, open-source object-relational database system. 
   It offers high performance, extensibility, and data integrity. 
